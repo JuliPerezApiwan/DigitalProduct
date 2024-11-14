@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import trading from "../assets/images/trading.png"
-import marketing from "../assets/images/marketing.png"
+import trading from "../assets/images/trading.jpeg"
+import marketing from "../assets/images/marketing.jpeg"
 import photoCicle from "../assets/images/photoCicle.png"
 
 
