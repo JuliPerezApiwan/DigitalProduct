@@ -233,23 +233,25 @@ a {
   padding: 0.7rem;
 }
 @media (max-width: 768px) {
-  flex-direction: column-reverse; /* Cambia la disposición de la imagen a vertical */
-  width: 90%; /* Hace que el contenedor ocupe todo el ancho */
-  padding: 1rem; /* Ajusta el padding para pantallas pequeñas */
+  flex-direction: column-reverse; 
+  width: 90%; 
+  padding: 1rem; 
 
   li {
-    font-size: 1rem; /* Ajusta el tamaño de fuente */
+    font-size: 1rem;
   }
 
   a {
-    padding: 0.5rem; /* Ajusta el padding del botón */
+    padding: 0.5rem; 
   }
 
   img {
-   
-    object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor sin distorsión */
-    display: block; /* Elimina el espacio debajo de la imagen */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    object-fit: contain; 
+    display: block; 
+    margin: 0 auto; 
+    max-width: 30%; 
+    height: auto; 
+    border-radius: 0
   }
 }
 `
@@ -279,8 +281,8 @@ font-family: "DM Sans", sans-serif;
 
   }
   @media (max-width: 768px) {
-    width: 90%; /* Hace que el contenedor ocupe todo el ancho */
-    padding: 1rem; /* Ajusta el padding para pantallas pequeñas */
+    width: 90%; 
+    padding: 1rem; 
     font-size: 1rem;
 
     h2 {
@@ -295,7 +297,7 @@ const BeneficiosContainer = styled.div`
   margin-bottom: 3rem;
 
   @media (max-width: 768px) {
-    width: 100%; /* Hace que el contenedor ocupe todo el ancho */
+    width: 100%; 
    
 `;
 
